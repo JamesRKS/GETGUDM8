@@ -981,7 +981,7 @@ MonoBehaviour:
   WallCheckRadius: 0.1
   WhatIsWall:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 768
   EdgeCheck: {fileID: 82394164}
 --- !u!1 &589369857
 GameObject:
