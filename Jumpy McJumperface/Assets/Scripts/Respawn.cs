@@ -3,11 +3,11 @@ using System.Collections;
 
 public class Respawn : MonoBehaviour {
 
-    public levelManager levelManager;
+    public LevelManager LevelManager;
 
 	//Use this for initialization
     void Start () {
-        levelManager = Find;
+        LevelManager = find;
     }
 	
 }
