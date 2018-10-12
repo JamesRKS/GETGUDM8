@@ -31,12 +31,10 @@ public class Movement: MonoBehaviour{
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
 
         // This code makes the character jump
-        if (Input.GetKeyDown(KeyCode.Space) && grounded)
-        {
+        if (Input.GetKeyDown(KeyCode.Space) && grounded){
             Jump();
         }
 
@@ -52,23 +50,26 @@ public class Movement: MonoBehaviour{
         moveVelocity = 0f;
 
         //This code makes the character move from side to side using the A&D keys
-        if (Input.GetKey(KeyCode.D))
-        {
+        if (Input.GetKey(KeyCode.D)){
             //GetComponent<Rigidbody2D>().velocity = new Vector2(MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             moveVelocity = MoveSpeed;
         }
-        if (Input.GetKey(KeyCode.A))
-        {
+        if (Input.GetKey(KeyCode.A)){
             //GetComponent<Rigidbody2D>().velocity = new Vector2(-MoveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             moveVelocity = -MoveSpeed;    
         }
-
         GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+
+        //Player Flip
+        if (GetComponent <Rigidbody2D>().velocity.x > 0)
+            transform.localScale = new Vector3(4f, 4f, 1f);
+
+        else if (GetComponent<Rigidbody2D>().velocity.x < 0)
+            transform.localScale = new Vector3(-4f, 4f, 1f);
 
     }
 
-    public void Jump()
-    {
+    public void Jump(){
         GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, JumpHeight);
     }
 }

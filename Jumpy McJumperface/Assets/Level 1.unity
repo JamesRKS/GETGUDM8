@@ -5799,8 +5799,6 @@ GameObject:
   m_Component:
   - component: {fileID: 766935073}
   - component: {fileID: 766935072}
-  - component: {fileID: 766935071}
-  - component: {fileID: 766935070}
   - component: {fileID: 766935074}
   m_Layer: 0
   m_Name: DeathBox
@@ -5809,28 +5807,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &766935070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 766935069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af5821ee5ab4944cc83545f2e46d4526, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &766935071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 766935069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af5821ee5ab4944cc83545f2e46d4526, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &766935072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6193,6 +6169,24 @@ Prefab:
       propertyPath: Projectile
       value: 
       objectReference: {fileID: 1700978364}
+    - target: {fileID: 4285392369696158, guid: 67fb229396fac46829f9b7aa61401abc, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4285392369696158, guid: 67fb229396fac46829f9b7aa61401abc, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114557045416326378, guid: 67fb229396fac46829f9b7aa61401abc,
+        type: 2}
+      propertyPath: MoveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114557045416326378, guid: 67fb229396fac46829f9b7aa61401abc,
+        type: 2}
+      propertyPath: JumpHeight
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 67fb229396fac46829f9b7aa61401abc, type: 2}
   m_IsPrefabParent: 0
