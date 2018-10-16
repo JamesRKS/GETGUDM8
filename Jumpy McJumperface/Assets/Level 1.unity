@@ -6072,11 +6072,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4368647681515484, guid: 56a6a654ecdbe4c6e95ca2cbea2fc674, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 30.82
+      value: 16.78
       objectReference: {fileID: 0}
     - target: {fileID: 4368647681515484, guid: 56a6a654ecdbe4c6e95ca2cbea2fc674, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.71
+      value: 6.92
       objectReference: {fileID: 0}
     - target: {fileID: 4368647681515484, guid: 56a6a654ecdbe4c6e95ca2cbea2fc674, type: 2}
       propertyPath: m_LocalPosition.z
@@ -6101,6 +6101,11 @@ Prefab:
     - target: {fileID: 4368647681515484, guid: 56a6a654ecdbe4c6e95ca2cbea2fc674, type: 2}
       propertyPath: m_RootOrder
       value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 58524672406333672, guid: 56a6a654ecdbe4c6e95ca2cbea2fc674,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56a6a654ecdbe4c6e95ca2cbea2fc674, type: 2}
@@ -6613,7 +6618,7 @@ MonoBehaviour:
   Speed: 10
   PC: {fileID: 1191072272}
   EnemyDeath: {fileID: 306197185}
-  ProjectileParticle: {fileID: 306197185}
+  ProjectileParticle: {fileID: 1814158190}
   PointsForKill: 100
 --- !u!1 &1755907422
 GameObject:

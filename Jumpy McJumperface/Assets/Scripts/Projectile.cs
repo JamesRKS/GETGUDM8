@@ -14,7 +14,15 @@ public class Projectile : MonoBehaviour {
 
 	//Use this for initialization
 	void Start(){
-        //Player = FindObjectOfType<RigidBody2D>();
+
+        if (PC.transform.localScale.x < 0)
+            Speed = -Speed;
+
+        // Speed = Speed * Mathf.Sign(PC.transform.localScale.x);
+
+        // GetComponent<Rigidbody2D>().velocity = new Vector2(Speed + (PC.GetComponent<Rigidbody2D>().velocity.x/3),GetComponent<Rigidbody2D>().velocity.y + (PC.GetComponent<Rigidbody2D>().velocity.y/3));
+
+
 	}
 
 	//Update is called upon once per frame
@@ -28,6 +36,7 @@ public class Projectile : MonoBehaviour {
             Destroy(other.gameObject);
             ScoreManager.AddPoints(PointsForKill);
         }
+
 
         Instantiate(ProjectileParticle, transform.position, transform.rotation);
         Destroy(gameObject);
