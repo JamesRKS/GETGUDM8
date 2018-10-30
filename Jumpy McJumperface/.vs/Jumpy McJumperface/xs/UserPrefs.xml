@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{639D1844-04A0-8792-6993-AF76DAA88E0C}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFollow.cs">
     <Files>
       <File FileName="Assets/Scripts/Movement.cs" Line="64" Column="27" />
       <File FileName="Assets/Scripts/DeathBox.cs" Line="15" Column="2" />
@@ -12,6 +12,7 @@
       <File FileName="Assets/Scripts/Checkpoint.cs" Line="25" Column="2" />
       <File FileName="Assets/Scripts/PlayerShoot.cs" Line="9" Column="52" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="39" Column="9" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="2" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
