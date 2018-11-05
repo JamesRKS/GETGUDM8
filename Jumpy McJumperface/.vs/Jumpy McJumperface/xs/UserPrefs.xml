@@ -12,7 +12,7 @@
       <File FileName="Assets/Scripts/Checkpoint.cs" Line="25" Column="2" />
       <File FileName="Assets/Scripts/PlayerShoot.cs" Line="9" Column="52" />
       <File FileName="Assets/Scripts/Projectile.cs" Line="39" Column="9" />
-      <File FileName="Assets/Scripts/CameraFollow.cs" Line="2" Column="34" />
+      <File FileName="Assets/Scripts/CameraFollow.cs" Line="30" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
