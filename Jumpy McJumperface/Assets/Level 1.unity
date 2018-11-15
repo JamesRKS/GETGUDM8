@@ -10654,7 +10654,7 @@ MonoBehaviour:
   DeathParticle: {fileID: 306197185}
   RespawnParticle: {fileID: 1814158190}
   RespawnDelay: 1
-  PointPenaltyOnDeath: 10
+  PointPenaltyOnDeath: 50
 --- !u!4 &432546504 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4245220066128532, guid: f32f1cd31805f41d1aad2377f5216030,
