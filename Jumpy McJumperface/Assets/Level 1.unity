@@ -1340,6 +1340,7 @@ GameObject:
   - component: {fileID: 113011744}
   - component: {fileID: 113011743}
   - component: {fileID: 113011742}
+  - component: {fileID: 113011745}
   m_Layer: 0
   m_Name: Projectile Particle
   m_TagString: Untagged
@@ -5947,6 +5948,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &113011745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 113011741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eddc7b6aef3b45e3aa1fdfff86579ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &115342412
 Prefab:
   m_ObjectHideFlags: 0
@@ -8824,11 +8836,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &306197185 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1265132683624178, guid: 8b72383a89fd14bbbafb2e821ad14eeb,
-    type: 2}
-  m_PrefabInternal: {fileID: 941781096}
 --- !u!1001 &308717232
 Prefab:
   m_ObjectHideFlags: 0
@@ -10651,8 +10658,10 @@ MonoBehaviour:
   currentCheckPoint: {fileID: 1049086816}
   pc: {fileID: 1191072272}
   PC2: {fileID: 0}
-  DeathParticle: {fileID: 306197185}
-  RespawnParticle: {fileID: 1814158190}
+  DeathParticle: {fileID: 1265132683624178, guid: 8b72383a89fd14bbbafb2e821ad14eeb,
+    type: 2}
+  RespawnParticle: {fileID: 1713243157808900, guid: fe7a43dc537974642858888f5ce3fcde,
+    type: 2}
   RespawnDelay: 1
   PointPenaltyOnDeath: 50
 --- !u!4 &432546504 stripped
@@ -21725,6 +21734,7 @@ GameObject:
   - component: {fileID: 1162830438}
   - component: {fileID: 1162830437}
   - component: {fileID: 1162830436}
+  - component: {fileID: 1162830439}
   m_Layer: 0
   m_Name: Enemy Death Particle
   m_TagString: Untagged
@@ -26332,6 +26342,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &1162830439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162830435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eddc7b6aef3b45e3aa1fdfff86579ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1165514794
 Prefab:
   m_ObjectHideFlags: 0
@@ -36201,11 +36222,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4245220066128532, guid: f32f1cd31805f41d1aad2377f5216030,
     type: 2}
   m_PrefabInternal: {fileID: 885834538}
---- !u!1 &1814158190 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1713243157808900, guid: fe7a43dc537974642858888f5ce3fcde,
-    type: 2}
-  m_PrefabInternal: {fileID: 1180172621}
 --- !u!1 &1817083386
 GameObject:
   m_ObjectHideFlags: 0
