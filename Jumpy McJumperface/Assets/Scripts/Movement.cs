@@ -62,10 +62,10 @@ public class Movement: MonoBehaviour{
 
         //Player Flip
         if (GetComponent <Rigidbody2D>().velocity.x > 0)
-            transform.localScale = new Vector3(4f, 4f, 1f);
+            transform.localScale = new Vector3(1.476629f, 1.476629f, 1f);
 
         else if (GetComponent<Rigidbody2D>().velocity.x < 0)
-            transform.localScale = new Vector3(-4f, 4f, 1f);
+            transform.localScale = new Vector3(-1.476629f, 1.476629f, 1f);
 
     }
 
