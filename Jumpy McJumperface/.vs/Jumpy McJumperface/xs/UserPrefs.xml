@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{639D1844-04A0-8792-6993-AF76DAA88E0C}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Graphics/platformerArt_v4/readme.txt">
     <Files>
-      <File FileName="Assets/Scripts/Movement.cs" Line="64" Column="27" />
+      <File FileName="Assets/Scripts/Movement.cs" Line="14" Column="35" />
       <File FileName="Assets/Scripts/DeathBox.cs" Line="15" Column="2" />
       <File FileName="Assets/Scripts/ScoreManager.cs" Line="22" Column="1" />
       <File FileName="Assets/Scripts/CoinPickup.cs" Line="9" Column="38" />
@@ -15,6 +15,7 @@
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="30" Column="1" />
       <File FileName="Assets/Scripts/DestroyFinishedParticle.cs" Line="25" Column="5" />
       <File FileName="Assets/Scripts/MainMenu.cs" Line="17" Column="2" />
+      <File FileName="Assets/Graphics/platformerArt_v4/readme.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
