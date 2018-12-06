@@ -39202,6 +39202,29 @@ Transform:
   m_Father: {fileID: 929492904}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1457859267 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1455382661212312, guid: f32f1cd31805f41d1aad2377f5216030,
+    type: 2}
+  m_PrefabInternal: {fileID: 1363724343}
+--- !u!95 &1457859271
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457859267}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f11f788f5bd594c6f97cadad1340a6ae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1458364689 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4245220066128532, guid: f32f1cd31805f41d1aad2377f5216030,
@@ -41113,7 +41136,7 @@ GameObject:
   m_Layer: 0
   m_Name: groundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -49888,7 +49911,7 @@ GameObject:
   m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
