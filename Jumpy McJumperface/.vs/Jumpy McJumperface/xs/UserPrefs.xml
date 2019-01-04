@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{639D1844-04A0-8792-6993-AF76DAA88E0C}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyPatrol.cs">
     <Files>
       <File FileName="Assets/Scripts/Movement.cs" Line="95" Column="1" />
       <File FileName="Assets/Scripts/DeathBox.cs" Line="15" Column="2" />

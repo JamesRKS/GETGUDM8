@@ -7516,7 +7516,7 @@ GameObject:
   m_Layer: 10
   m_Name: EdgeCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -26329,7 +26329,7 @@ Transform:
   m_GameObject: {fileID: 851278637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.3, y: -0.2, z: 0}
-  m_LocalScale: {x: 15.713498, y: 2.562281, z: 1}
+  m_LocalScale: {x: 15.75, y: 2.6, z: 1}
   m_Children:
   - {fileID: 1333539289}
   - {fileID: 118341395}
@@ -31910,6 +31910,66 @@ Prefab:
     - target: {fileID: 4030027215416310, guid: 6bf89705bea974b0cb266b7b1be63c9f, type: 2}
       propertyPath: m_RootOrder
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 61053451629330280, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61053451629330280, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61053451629330280, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61053451629330280, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61053451629330280, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 61053451629330280, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 61228902739230554, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61228902739230554, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61228902739230554, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61228902739230554, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0.049999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 61228902739230554, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 61228902739230554, guid: 6bf89705bea974b0cb266b7b1be63c9f,
+        type: 2}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6bf89705bea974b0cb266b7b1be63c9f, type: 2}
@@ -43910,7 +43970,7 @@ GameObject:
   m_Layer: 10
   m_Name: WallCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -64268,7 +64328,7 @@ Transform:
   m_GameObject: {fileID: 2057953865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 67.3, y: 4.8, z: 0}
-  m_LocalScale: {x: 20, y: 15, z: 1}
+  m_LocalScale: {x: 15.75, y: 2.6, z: 1}
   m_Children:
   - {fileID: 1085487617}
   - {fileID: 1205014316}
@@ -64580,7 +64640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 7.5
-  MoveRight: 1
+  MoveRight: 0
   WallCheck: {fileID: 1805395021}
   WallCheckRadius: 0.1
   WhatIsWall:
