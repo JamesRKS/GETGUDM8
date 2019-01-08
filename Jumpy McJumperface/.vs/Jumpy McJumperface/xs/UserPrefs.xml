@@ -6,7 +6,7 @@
       <File FileName="Assets/Scripts/DeathBox.cs" Line="15" Column="2" />
       <File FileName="Assets/Scripts/ScoreManager.cs" Line="22" Column="1" />
       <File FileName="Assets/Scripts/CoinPickup.cs" Line="9" Column="38" />
-      <File FileName="Assets/Scripts/EnemyPatrol.cs" Line="35" Column="65" />
+      <File FileName="Assets/Scripts/EnemyPatrol.cs" Line="31" Column="59" />
       <File FileName="Assets/Scripts/LevelManager.cs" Line="29" Column="11" />
       <File FileName="Assets/Scripts/KillPlayer.cs" Line="18" Column="9" />
       <File FileName="Assets/Scripts/Checkpoint.cs" Line="25" Column="2" />
